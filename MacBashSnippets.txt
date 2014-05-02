@@ -1,0 +1,10 @@
+alias makeBourbonProject="gem update bourbon && gem update nea && bourbon insta$
+alias makeSass="sass --watch --sourcemap -r sass-globbing scss/master.scss:css/$
+alias toGrav="cd ~/Documents/GravitateWorkspace"
+alias toAmpps="cd /Applications/Ampps/www"
+function toTheme {
+        cd /Applications/Ampps/www/$1.localhost/wp-content/themes/$1
+}
+function toProject {
+        cd /Applications/Ampps/www/$1*
+}

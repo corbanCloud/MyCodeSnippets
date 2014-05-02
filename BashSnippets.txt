@@ -1,1 +1,0 @@
-alias makeSass="sass --watch --sourcemap -r sass-globbing scss/master.scss:css/master.css
